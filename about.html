@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Про компанію та контакти · GTI Labz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+  <script defer src="script.js"></script>
+  <meta name="theme-color" content="#7D1AE6"/>
+  <link rel="stylesheet" href="assets/mobile-hamburger.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html">
+        <img src="assets/logo01.svg" alt="GTI Labz logo"/>
+        <span>GTI Labz</span>
+      </a>
+      <nav class="navlinks top-nav">
+        <a href="index.html">Головна</a>
+        <a href="services.html">Послуги</a>
+        <a class="active" href="about.html">Про компанію та контакти</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <div class="stripe reveal">
+      <h1>Про компанію та контакти</h1>
+      <small>Про команду, підхід і як зв’язатися</small>
+    </div>
+
+    <section class="section grid-2">
+      <div class="card reveal">
+        <div class="badge">Хто ми</div>
+        <p><strong>GTI Labz</strong> — це команда перекладачів, редакторів і термінологів, яка працює для бізнесу, державних і приватних компаній по всьому світу.</p>
+      </div>
+      <div class="card reveal">
+        <div class="badge">Наші клієнти</div>
+        <p>Юридичний бізнес, IT, медицина, виробництво, маркетинг.</p>
+      </div>
+    </section>
+
+    
+  
+    <section class="section">
+      <div class="stripe reveal">
+        <h2>Контакти</h2>
+      </div>
+      <div class="grid-2">
+        <div class="card reveal">
+          <p>📨 Email: <a href="mailto:gtilabz@gmail.com">gtilabz@gmail.com</a></p>
+          <p>💬 Telegram: <a href="https://t.me/your_username" target="_blank" rel="noopener">@your_username</a></p>
+        </div>
+        <div class="card reveal">
+          <p>Маєте запит чи бриф? Напишіть нам — ми відповімо і підкажемо оптимальний формат співпраці.</p>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="brand-mini">
+        <img src="assets/logo01.svg" alt="GTI Labz logo small"/>
+        <strong>GTI Labz</strong>
+      </div>
+      <div>GTI Labz © 2025 — <em>Language Support Solutions for Business</em></div>
+    </div>
+  </footer>
+<!-- Mobile Hamburger Menu (drop-in component) -->
+<!-- 1) Place this near the end of <body>. -->
+<!-- 2) Include mobile-hamburger.css in your <head> and mobile-hamburger.js before </body>. -->
+
+<!-- Trigger button -->
+<button class="hamburger-btn" id="hamburgerBtn" aria-label="Открыть меню" aria-controls="mobileMenu" aria-expanded="false">
+  <!-- Simple hamburger icon (SVG) -->
+  <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+    <rect x="3" y="6" width="18" height="2"></rect>
+    <rect x="3" y="11" width="18" height="2"></rect>
+    <rect x="3" y="16" width="18" height="2"></rect>
+  </svg>
+</button>
+
+<!-- Backdrop (click to close) -->
+<div class="menu-backdrop" id="menuBackdrop" hidden></div>
+
+<!-- Menu panel 300x300 -->
+<nav class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <button class="menu-close" id="menuClose" aria-label="Закрыть меню">
+    <!-- Close icon (SVG) -->
+    <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M18.3 5.71a1 1 0 0 0-1.41 0L12 10.59 7.11 5.7A1 1 0 1 0 5.7 7.11L10.59 12l-4.9 4.89a1 1 0 1 0 1.41 1.42L12 13.41l4.89 4.9a1 1 0 0 0 1.42-1.42L13.41 12l4.9-4.89a1 1 0 0 0-.01-1.4z"></path>
+    </svg>
+  </button>
+
+  <ul class="menu-list">
+    <li><a href="#home">Головна</a></li>
+    <li><a href="#services">Послуги</a></li>
+    <li><a href="#about">Про компанію. Контакти</a></li>
+  </ul>
+</nav>
+
+</body>
+</html>
