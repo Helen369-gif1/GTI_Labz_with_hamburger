@@ -13,7 +13,7 @@
 .hamburger-btn {
   position: fixed;
   top: 22px;
-  left: 22px;
+  right: 22px;
   width: var(--btn-size);
   height: var(--btn-size);
   display: none;
